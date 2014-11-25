@@ -1,0 +1,6 @@
+@namespace("gfc.avro")
+protocol Standards {
+
+  fixed UUID(16); // Network byte order
+
+}
