@@ -1,4 +1,3 @@
-- Find a way to better share than manually copying
 - Version and tag
   - Perhaps add version to the namespace, e.g. gfc.avro.v1
   - Perhaps add version to file name, e.g. events-v1.avdl
