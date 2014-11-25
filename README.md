@@ -137,8 +137,8 @@ currently listed `MAINTAINERS` are counted towards the required majority.
 GFC Avro Event Definitions follows the timeless, highly efficient and totally
 unfair system known as [Benevolent dictator for
 life](http://en.wikipedia.org/wiki/Benevolent_Dictator_for_Life), with yours
-truly, Peter Barron, in the role of BDFL. This means that all decisions are
-made in the end, by default, by Pete. In practice decisions are spread across
+truly, Michael Bryzek, in the role of BDFL. This means that all decisions are
+made in the end, by default, by Mike. In practice decisions are spread across
 the maintainers with the goal of consensus prior to all merges.
 
 ### I'm a maintainer. Should I make pull requests too?
@@ -148,7 +148,7 @@ through a pull request.
 
 ### Who assigns maintainers?
 
-Yon has final `LGTM` approval for all pull requests to `MAINTAINERS` files.
+Mike has final `LGTM` approval for all pull requests to `MAINTAINERS` files.
 
 ### How is this process changed?
 
