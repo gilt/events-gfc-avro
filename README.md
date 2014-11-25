@@ -1,5 +1,7 @@
 # GFC Avro Event Definitions
 
+Shared Avro schemas meant to be imported into other schemas. See: [events-mobile-tapstream](https://github.com/gilt/events-mobile-tapstream) for an example.
+
 ## Prerequisites
 
   - [Mobile Service Tools](https://github.com/gilt/mobile-service-tools)
@@ -8,15 +10,15 @@
 
 ### Pull requests are always welcome
 
-We're trying very hard to keep GFC Avro Event Definitions simple,
-lean and focused. We don't want it to do everything for everybody. This means
-that we might decide against incorporating a new API feature.
+We're trying very hard to keep GFC Avro Event Definitions simple, lean and
+focused. We don't want it to do everything for everybody. This means that we
+might decide against incorporating a new API feature.
 
 ### Create issues...
 
 Any significant improvement should be documented as [a GitHub
-issue](https://github.com/gilt/events-gfc-avro/issues) before anybody
-starts working on it.
+issue](https://github.com/gilt/events-gfc-avro/issues) before anybody starts
+working on it.
 
 ### ...but check for existing issues first!
 
@@ -55,7 +57,8 @@ GFC Avro Event Definitions maintainers use LGTM (Looks Good To Me) in
 comments on the code review to indicate acceptance.
 
 A change requires LGTMs from an absolute majority of the [current
-contributors](https://github.com/gilt/events-gfc-avro/blob/master/MAINTAINERS).
+contributors](https://github.com/gilt/events-gfc-avro/blob/master/MAINTAINERS)
+.
 
 #### Small patch exception
 
@@ -131,12 +134,12 @@ by accepting or refusing pull requests. Review and acceptance by anyone is
 denoted by adding a comment in the pull request: `LGTM`. However, only
 currently listed `MAINTAINERS` are counted towards the required majority.
 
-GFC Avro Event Definitions follows the timeless, highly efficient and
-totally unfair system known as [Benevolent dictator for
+GFC Avro Event Definitions follows the timeless, highly efficient and totally
+unfair system known as [Benevolent dictator for
 life](http://en.wikipedia.org/wiki/Benevolent_Dictator_for_Life), with yours
-truly, Peter Barron, in the role of BDFL. This means that all decisions
-are made in the end, by default, by Pete. In practice decisions are spread
-across the maintainers with the goal of consensus prior to all merges.
+truly, Peter Barron, in the role of BDFL. This means that all decisions are
+made in the end, by default, by Pete. In practice decisions are spread across
+the maintainers with the goal of consensus prior to all merges.
 
 ### I'm a maintainer. Should I make pull requests too?
 
