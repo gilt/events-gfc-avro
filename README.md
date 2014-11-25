@@ -148,7 +148,7 @@ through a pull request.
 
 ### Who assigns maintainers?
 
-Mike has final `LGTM` approval for all pull requests to `MAINTAINERS` files.
+Mike has final `LGTM` approval for all pull requests to the `MAINTAINERS` file.
 
 ### How is this process changed?
 
