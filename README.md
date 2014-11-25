@@ -93,11 +93,11 @@ Short answer: with pull requests to this repository
 All decisions affecting GFC Avro Event Definitions, big and small,
 follow the same 3 steps:
 
-* Step 1: Open a pull request. Anyone can do this.
+1. Open a pull request. Anyone can do this.
 
-* Step 2: Discuss the pull request. Anyone can do this.
+2. Discuss the pull request. Anyone can do this.
 
-* Step 3: Accept (`LGTM`) or refuse a pull request. The relevant maintainers
+3. Accept (`LGTM`) or refuse a pull request. The relevant maintainers
   do this (see below "Who decides what?")
  + Accepting pull requests
   - If the pull request appears to be ready to merge, give it a `LGTM`, which
