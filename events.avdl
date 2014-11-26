@@ -3,4 +3,34 @@ protocol Standards {
 
   fixed UUID(16); // Network byte order
 
+  record LocalizedMoney {
+    double amount;
+    /**
+     * The three-character currency codes defined in ISO 4217.
+     * Link: https://en.wikipedia.org/wiki/ISO_4217#Active_codes
+     */
+     string currencyIso4217Code;
+  }
+
+  record ConversionRate {
+    string sourceCurrencyIso4217Code;  // e.g. JPN
+    string targetCurrencyIso4217Code;  // e.g. USD
+    double rate;
+  }
+
+  record Money {
+      LocalizedMoney local;
+      ConversionRate rate;
+      LocalizedMoney gilt;
+  }
+  
+  /** For date times, two recommendations
+   * 1. preferred: Send a string in iso8601 format
+   * 2. if you need an optimized format, name your field <name>Utc
+   *    and send as a double
+   */
+  record DateTimeIso8601 { 
+    union { string, double } value;
+  }
+  
 }
