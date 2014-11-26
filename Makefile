@@ -27,7 +27,7 @@ avro-schemas: $(targetdir)
 	@echo
 
 clean:
-	git clean -dfqx
+	git clean -dfX
 
 $(targetdir):
 	@mkdir -p $@
