@@ -3,7 +3,7 @@ protocol Standards {
 
   fixed UUID(16); // Network byte order
 
-  record LocalizedMoney {
+  record Money {
     double amount;
     string currencyIso4217Code; // https://en.wikipedia.org/wiki/ISO_4217#Active_codes
   }
@@ -14,10 +14,10 @@ protocol Standards {
     double rate;
   }
 
-  record Money {
-    LocalizedMoney local;
-    LocalizedMoney gilt;
-    ConversionRate rate;
+  record GlobalizedMoney {
+    Money local;
+    ConversionRate conversion;
+    Money normalized;
   }
 
 }
