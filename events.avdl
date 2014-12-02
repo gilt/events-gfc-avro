@@ -17,7 +17,7 @@ protocol Standards {
   record GlobalizedMoney {
     Money local;
     ConversionRate conversion;
-    Money normalized;
+    Money global;
   }
 
 }
