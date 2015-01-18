@@ -10,4 +10,4 @@ Shared Avro schemas meant to be imported into other schemas. See: [events-mobile
 
 ## Contribution guidelines
 
-See [contribution guidelines](https://github.com/gilt/events-standards/blob/master/CONTRIBUTIONS.md)
+See [contribution guidelines](https://github.com/gilt/events-standards/blob/master/CONTRIBUTING.md)
